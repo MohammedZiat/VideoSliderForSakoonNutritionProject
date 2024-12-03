@@ -1,0 +1,346 @@
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<style>
+      .slider_container1 {
+            width: 100%;
+            position: relative !important;
+            height: 480px;
+            padding: 0px 0;
+            margin-top: 0px;
+            overflow: hidden;
+
+      }
+
+
+      .swiper_cus_container1 {
+            width: 85%;
+            margin: 0 auto;
+      }
+
+      .swiper {
+
+            width: 100%;
+            height: 500px;
+
+      }
+
+      .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            width: 300px !important;
+            height: 424px !important;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .single_video_container1 {
+            margin-left: 10px;
+            margin-right: 10px;
+      }
+
+      .single_video_container1 .custom-video__control1 {
+            position: absolute;
+
+            color: #fff;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #0000005b;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+      }
+
+
+      .swiper-slide video {
+            display: block;
+            width: 300px !important;
+            height: 424px !important;
+            object-fit: cover;
+      }
+
+      .swiper {
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .swiper-button-next {
+            position: absolute !important;
+            right: 30px !important;
+            top: 50% !important;
+            transform: translateY(-50%);
+            /* color:#FFC63C; */
+            width: 50px;
+            height: 50px;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            z-index: 100;
+      }
+
+      .swiper-button-prev {
+            position: absolute !important;
+            left: 30px !important;
+            top: 50% !important;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            color: #000;
+            border: 2px solid #000;
+            border-radius: 50%;
+            background-color: #fff;
+            z-index: 100;
+      }
+
+      .custom-video__control1 {
+            display: flex;
+            cursor: pointer;
+      }
+
+      .cus_swiper_button_prev1:after,
+      .cus_swiper_button_next1:after {
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .cus_swiper_button_next1:after {
+            z-index: 100 !important;
+      }
+
+      .cus_swiper_button_prev1:after {
+            content: 'prev';
+      }
+
+      .cus_swiper_button_next1:after {
+            content: 'next';
+
+      }
+
+      .cus_navigation1 .swiper-pagination {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+      }
+
+      .cus_navigation1 .swiper-pagination-bullet {
+            transition-duration: 1s !important;
+
+            margin-left: 15px;
+            margin-right: 15px;
+            height: 12px !important;
+            width: 12px;
+      }
+
+      .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+            background-color: #000 !important;
+      }
+
+      .cus_navigation1 .swiper-pagination-clickable .swiper-pagination-bullet {
+            cursor: pointer;
+            transition-duration: 1s;
+            /* background-color:#000000!important; */
+
+      }
+
+      .cus_navigation1 .swiper-pagination-bullet-active {
+            width: 30px !important;
+            border-radius: 6px;
+            background-color: #ffc63c !important;
+      }
+
+      .cus_swiper_button_next1,
+      .cus_swiper_button_prev1 {
+            display: block !important;
+      }
+
+      .cus_swiper_button_prev1:after,
+      .cus_swiper_button_next1:after {
+            font-size: 30px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            padding-top: 8px !important;
+      }
+
+      /* @media (min-width:1600px) and (max-width:2300px){
+
+            .container{
+            width:75%;
+            margin:0 auto;
+            }
+
+            } */
+            </style>
+
+      <div class="slider_container1">
+            <div class="swiper_cus_container1">
+                  <div class="swiper card_slider1 mySwiper1">
+                        <div class="swiper-wrapper all_video_container1">
+                              <div class="swiper-slide  single_video_container1 ">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_4.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/dc81d81cab72434b98892cd2e6264350.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_2.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/b4e4df29040d424fb2864e61d9bce960.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_3.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/669e743a5ed14b6eb1b133dcaa729280.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_4.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/dc81d81cab72434b98892cd2e6264350.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_5.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/e28c770a219b45e2b0cd16f855dc7923.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_6.png?v=1729837676">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/7ae77c09c20e4ea6a3f95897b8ea3392.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                              <div class="swiper-slide  single_video_container1">
+                                    <video class="custom_video1" width="100%" height="auto"
+                                          poster="https://cdn.shopify.com/s/files/1/0904/9335/4289/files/img_7.png?v=1729837677">
+                                          <source
+                                                src="https://cdn.shopify.com/videos/c/o/v/7a9c56c6f5fe4f818530411585e134ef.mp4"
+                                                type="video/mp4" />
+                                          Your browser does not support the video tag.
+                                    </video>
+                                    <div class="custom-video__control1">▶</div>
+                              </div>
+                        </div>
+
+                  </div>
+                  <div class="cus_navigation1">
+                        <div class="swiper-button-next cus_swiper_button_next1"></div>
+                        <div class="swiper-button-prev cus_swiper_button_prev1"></div>
+                        <div class="swiper-pagination cus_swiper_pagination1"></div>
+                  </div>
+            </div>
+
+      </div>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+      </script>
+      <script>
+            var swiper = new Swiper(".card_slider1", {
+                  slidesPerView: 4,
+                  spaceBetween: 0,
+                  loop: true,
+                  centeredSlides: true,
+                  //  autoplay: {
+                  //   delay: 1000,
+                  //    disableOnInteraction: false
+                  //  },
+                  pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                  },
+                  navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                  },
+            });
+
+
+
+
+
+
+
+
+            // Adding functinality to video play and pause button
+            const video = document.getElementsByClassName("custom_video1");
+            let i;
+            for (i = 0; i < video.length; i++) {
+                  video[i].addEventListener("click", function () {
+                        const
+                              controls = this.nextElementSibling;
+                        if (controls.innerHTML === "▶") {
+                              controls.innerHTML = "| |";
+                              this.play();
+                        } else {
+                              controls.innerHTML = "▶";
+                              this.pause();
+                        }
+                  });
+                  video[i].addEventListener("mouseout", function () {
+                        const controls = this.nextElementSibling;
+                        if (!this.paused) {
+                              controls.style.display = "none";
+                        }
+                  });
+                  video[i].addEventListener("mouseover", function () {
+                        const controls = this.nextElementSibling;
+                        controls.style.display = "flex";
+                  });
+                  video[i].addEventListener("ended", function () {
+                        const controls = this.nextElementSibling;
+                        controls.style.display = "flex";
+                        controls.innerHTML = "▶";
+                  }, false);
+            }
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
